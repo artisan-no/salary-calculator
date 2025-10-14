@@ -19,6 +19,9 @@ const SalaryResult: React.FC<SalaryResultInputProps> = ({ salary, base }) => (
 
             <p className="text-gray-400 mb-1">Estimated monthly salary:</p>
             <p className="text-3xl font-bold text-amber-400">{salary.toLocaleString('no-NO')} NOK</p>
+
+            <p className="text-gray-400 mb-1">Estimated Yearly salary:</p>
+            <p className="text-3xl font-bold text-amber-400">{(salary * 12).toLocaleString('no-NO')} NOK</p>
         </motion.div>
 )
 
