@@ -3,7 +3,6 @@
 import { useState, ChangeEvent, JSX } from 'react'
 import NumericInput from './components/utilities/NumericInput'
 import SalaryResult from './components/utilities/SalaryResult'
-import { get } from 'http'
 
 function getBaseSalary(experience: number, salaryMatrix: { experience: number; salary: number }[]): number {
   if(experience < 0) return salaryMatrix[0].salary;

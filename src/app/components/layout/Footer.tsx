@@ -1,9 +1,6 @@
 'use client'
 
 import { JSX } from 'react'
-import { Menu } from 'lucide-react'
-import NavMenu from './NavMenu'
-import HeaderLogo from './HeaderLogo'
 
 
 export default function Header(): JSX.Element {
