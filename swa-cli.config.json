@@ -1,7 +1,7 @@
 {
   "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
   "configurations": {
-    "salary-calculator": {
+    "swa-artisan-salary-calc": {
       "appLocation": ".",
       "outputLocation": ".next",
       "appBuildCommand": "yarn build",
