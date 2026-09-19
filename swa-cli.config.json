@@ -3,7 +3,7 @@
   "configurations": {
     "swa-artisan-salary-calc": {
       "appLocation": ".",
-      "outputLocation": ".next",
+      "outputLocation": "out",
       "appBuildCommand": "yarn build",
       "run": "yarn dev",
       "appDevserverUrl": "http://localhost:3000"
