@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Deploy to Azure Static Web Apps
+
+The calculator uses Next.js static export (`output: "export"`). Run `yarn build`
+to generate the deployable site in `out/`. GitHub Actions installs dependencies
+from `yarn.lock` using Node 20, builds the site, and uploads `out/` to Azure
+without a second server-side build. Pushes to `main` deploy production; pull
+requests create preview deployments.
+
+Use `yarn dev` for local development. To preview a production build, serve the
+`out/` directory with a static web server (`next start` does not support static
+exports).
